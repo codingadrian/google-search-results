@@ -1,0 +1,54 @@
+
+/*Reset CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+
+div ul {
+  display: inline;
+}
+/*Header*/
+.topnav a {
+  display: inline;
+}
+
+/*Search*/
+
+/*Tools*/
+#others {
+  border-bottom: 1px solid rgba(220, 220, 220, .50);
+  width: 100%;
+}
+
+
+/*Results*/
+
+div.result {
+  width: 50%;
+  margin: 50px 30px 100px 30px;
+  border: 1px solid black;
+}
+
+
+/*Footer*/
+
+footer {
+  background-color: rgba(220, 220, 220, .50);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.floc {
+  border: 1px solid rgba(220, 220, 220, .75);
+}
+
+.fbar {
+
+}
