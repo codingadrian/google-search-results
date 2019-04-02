@@ -5,16 +5,24 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+}
+
+/*Main CSS*/
+
+body {
+  color: rgba(54, 54, 54, .80);
   font-family: arial, sans-serif;
   font-size: small;
 }
 
-div ul {
-  display: inline;
-}
 /*Header*/
-.topnav a {
-  display: inline;
+.topnav {
+  position: fixed;
+  z-index: 1;
+}
+
+.tools {
+  position: relative;
 }
 
 /*Search*/
@@ -28,10 +36,89 @@ div ul {
 
 /*Results*/
 
+div.link h3 {
+  font-weight: normal;
+  font-size: 1.4vw;
+  color: #1a0dab;
+  line-height: 3.9vh;
+}
+
+span.green {
+  display: block;
+  color: #006621;
+  font-size: 1.05vw;
+  line-height: 2.9vh;
+}
+
+p.speed {
+  margin: 10px 185px;
+}
+
 div.result {
-  width: 50%;
-  margin: 50px 30px 100px 30px;
-  border: 1px solid black;
+  margin: 30px 190px 30px 190px;
+  width: 45%;
+  line-height: 2.9vh;
+  color: rgba(54, 54, 54, .80);
+  padding: 3px;
+
+}
+
+/*Related Searches*/
+
+div#related {
+  margin: 30px 300px 30px 190px;
+}
+
+div#related h3 {
+  margin: 20px 0 20px;
+  font-size: 1.4vw;
+  font-weight: 300;
+  color: black;
+}
+
+div#related li {
+  list-style: none;
+  margin: 10px 0;
+  font-size: 1.1vw;
+}
+
+/*Previous and Next*/
+
+img#g-next {
+  padding-top: 5px;
+  height: 20%;
+  width: 90%;
+}
+
+img.next {
+  height: 20%;
+  width: 90%;
+
+}
+table {
+  margin-left: 250px;
+  margin-bottom: 50px;
+  width: 25%;
+  line-height: 3.5vh;
+}
+
+th {
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+}
+
+
+img#last-o {
+  height: 7%;
+  width: 71%;
+}
+
+img#gle {
+  height: 17%;
+  width: 93%;
 }
 
 
@@ -39,14 +126,16 @@ div.result {
 
 footer {
   background-color: rgba(220, 220, 220, .50);
-  overflow: hidden;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
 
 .floc {
   border: 1px solid rgba(220, 220, 220, .75);
+}
+
+.floc li {
+  display: inline;
 }
 
 .fbar {
