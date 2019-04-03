@@ -16,13 +16,33 @@ body {
 }
 
 /*Header*/
-.topnav {
-  position: fixed;
-  z-index: 1;
+
+.logo {
+  width: 92px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
+
+#topnav {
+  position: fixed;
+  top: 0px;
+  border: 1px solid rgba(220, 220, 220, .50);
+  width: 100%;
+}
+
+#topnav li {
+  display: inline-block;
+}
+
+.float-left {
+  display: flex;
+  float: right;
+}
+
+
 .tools {
-  position: relative;
 }
 
 /*Search*/
@@ -134,10 +154,59 @@ footer {
   border: 1px solid rgba(220, 220, 220, .75);
 }
 
+#location ul {
+  margin-left: 198px;
+  padding: 10px 0;
+}
+
+#hist ul {
+  margin-left: 190px;
+  padding: 10px;
+}
+
+
+#hist ul li {
+  display: inline;
+}
+
+#hist li a {
+  color: rgba(54, 54, 54, .80);
+}
+
+
+#bar {
+  margin: 0 20px;
+  color: rgba(220, 220, 220, .85);
+  font-size: 1.5vw
+}
+
+.fas {
+  opacity: .50;
+  font-size: 0.9vw;
+  -webkit-opacity: .75;
+  -moz-opacity: .75;
+}
+
+
+li #bullet {
+  list-style-type: circle;
+}
+
+
 .floc li {
   display: inline;
 }
 
-.fbar {
+#bullet {
+  list-style-type: circle;
+}
 
+.fbar {
+  margin-left: 190px;
+  padding: 10px 0;
+}
+
+.fbar a {
+  padding: 10px;
+  color: rgba(54, 54, 54, .80);
 }
